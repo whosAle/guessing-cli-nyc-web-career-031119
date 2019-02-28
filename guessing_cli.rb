@@ -19,7 +19,7 @@ def guess(number)
 end
 
 def run_guessing_game()
-#  help
+  help
   puts "Guess a number between 1 and 6."
   input = gets.chomp
 
