@@ -10,7 +10,7 @@ def exit_guessing_game
 end
 
 def guess(number)
-  random_num = rand.(1..6)
+  random_num = rand(1..6)
   if number == random_num
     puts "You guessed the correct number!"
   else
