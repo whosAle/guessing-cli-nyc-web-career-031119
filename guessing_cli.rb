@@ -1,4 +1,3 @@
-# Code your solution here!
 def help
   puts "I accept the following commands:"
   puts "A number between 1 and 6"
@@ -22,7 +21,6 @@ def run_guessing_game()
   help
   puts "Guess a number between 1 and 6."
   input = gets.chomp
-
 
   while input != "exit"
     input = input.to_i
