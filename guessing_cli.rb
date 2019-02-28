@@ -6,7 +6,7 @@ def help
 end
 
 def exit_guessing_game
-  puts "Goodbye"
+  puts "Goodbye!"
 end
 
 def guess(number)
