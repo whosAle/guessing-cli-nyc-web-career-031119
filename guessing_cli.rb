@@ -25,7 +25,8 @@ def run_guessing_game()
 
 
   while input != "exit"
-    if input.to_i
+    input = input.to_i
+    if input > 0|| input < 6
       guess(input.to_i)
     else
       puts "Please use valid command."
