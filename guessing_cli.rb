@@ -18,7 +18,7 @@ def guess(number)
   end
 end
 
-def run_guessing_game(songs)
+def run_guessing_game()
   help
   puts "Guess a number between 1 and 6."
   input = gets.chomp
