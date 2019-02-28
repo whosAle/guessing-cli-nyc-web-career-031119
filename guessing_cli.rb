@@ -20,7 +20,7 @@ end
 
 def run_guessing_game()
 #  help
-  puts "Guess a number between 1 and 6."
+  # puts "Guess a number between 1 and 6."
   input = gets.chomp
 
 
